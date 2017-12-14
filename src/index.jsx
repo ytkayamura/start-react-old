@@ -8,9 +8,7 @@ class App extends Component {
   }
 }
 // Stateless Functional Component
-function Hello() {
-  return <div>Hello React!!!</div>;
-}
+const Hello = () => <div>Hello React!!!</div>;
 
 // initialize
 ReactDOM.render(<App/>, document.getElementById('app'));
