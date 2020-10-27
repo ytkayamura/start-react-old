@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "",
   "dependencies": {
+    "axios": "^0.21.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -11,6 +12,7 @@
     "@babel/core": "^7.10.4",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
